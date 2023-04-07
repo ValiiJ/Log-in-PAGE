@@ -1,0 +1,212 @@
+body{
+   
+    font-family: sans-serif;
+    background:linear-gradient(to left,black,red);
+   
+}
+
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 14px; 
+    
+  }
+  
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 16px; /* Increase the font size for larger screens */
+  }
+  
+
+}
+
+@media screen and (min-width: 812px) {
+  body {
+    font-size: 18px; /* Increase the font size for larger screens */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px; /* Increase the font size for larger screens */
+  }
+}
+
+
+p::selection{
+  color: snow;
+  background-color: red;
+}
+
+a::selection{
+  
+  color: snow;
+  background-color: red;
+}
+h2::selection{
+  
+  color: snow;
+  background-color: red;
+}
+
+
+
+
+
+
+
+.login-box{
+   
+    
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    padding: 40px;
+      transform: translate(-50%, -50%);
+    box-shadow: 25px 25px 19px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    background-color: #4f4b4b;
+    
+  
+
+}
+
+
+
+.login-box h2{
+
+    margin: 0 0 20px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: red -3px 0,
+                cyan 3px 0;
+    letter-spacing: 1px;
+    
+}
+
+
+
+
+
+
+.user-box input{
+  
+  display: block;
+    margin: 20px auto;
+  
+    border: none;
+  border-bottom: 1px solid #4f4b4b;
+  border-radius: 20px;
+outline: none;
+  width: 260px;
+ 
+  padding: 10px ;
+  
+}
+
+
+
+button{
+    
+    width: 280px;
+    padding: 5px 10px;
+    cursor:pointer;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    margin: 5px auto;
+    
+}
+
+button:hover {
+    background-color: rgb(189, 189, 189);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    
+  }
+  
+
+  .linky{
+    margin-top: 20px;
+   
+  }
+
+  .linky a{
+    color: #fff;
+    text-decoration: none;
+  
+    
+    
+  }
+
+  .linky a:hover{
+    color: skyblue;
+  }
+
+  .social{
+   
+    margin: 25px 0;
+    text-align: center;
+    
+}
+
+
+.social a{
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+
+.social a:hover {
+    color: skyblue;
+}
+
+.social a i{
+    font-size: 25px;
+
+}
+
+
+.sign-up{
+    color: #fff;
+    
+}
+
+
+
+.sign-up a{
+    color: rgb(228, 72, 72);
+    text-decoration: none;
+}
+  
+
+.sign-up a:hover{
+    color: skyblue
+}
+
+hr{
+    margin-top: 25px;
+    width: 280px;
+}
+
+
+summary{
+  color: white;
+}
+
+details a{
+  color: snow;
+}
+
+details a:hover{
+  color: red;
+}
+
+
+
